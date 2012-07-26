@@ -1,0 +1,15 @@
+{
+  "name": "Service Now Linker",
+  "version": "1.0",
+  "manifest_version": 1,
+  "description": "Turns each Service Now number into a link to the SN page.",
+  "content_scripts": [{
+    "matches": ["http://*/*", "https://*/*"],
+    "run_at": "document_end",
+    "js": ["jquery-1.7.2.min.js", "core.js"],
+    "all_frames": true
+  }]
+
+
+}
+
