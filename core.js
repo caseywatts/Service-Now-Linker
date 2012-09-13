@@ -62,6 +62,9 @@
     findAndReplace('\\b(INC\\d{7})\\b',
                    '<a href=\"https://yale.service-now.com/textsearch.do?sysparm_no_redirect=true&sysparm_search=$&\" target=\"_blank\">$&</a>'
     );
+    //findAndReplace('\\b(INC-\\d{3}-\\d{4})\\b',
+                   //'<a href=\"https://yale.service-now.com/textsearch.do?sysparm_no_redirect=true&sysparm_search=$&\" target=\"_blank\">$&</a>'
+    //);
   }
 
 jQuery(document).ready(function(){
